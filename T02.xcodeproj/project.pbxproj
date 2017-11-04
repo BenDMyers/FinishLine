@@ -15,6 +15,10 @@
 		9F10E39B1F893E0100B59768 /* T02Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F10E39A1F893E0100B59768 /* T02Tests.swift */; };
 		9F10E3A61F893E0100B59768 /* T02UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F10E3A51F893E0100B59768 /* T02UITests.swift */; };
 		9F5BCFBE1FA8D4B2004404BA /* ScheduleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5BCFBD1FA8D4B2004404BA /* ScheduleTableViewController.swift */; };
+		BDBE613E1FAD4FBB0025AE4A /* Leaderboard Button.png in Resources */ = {isa = PBXBuildFile; fileRef = BDBE613D1FAD4FBA0025AE4A /* Leaderboard Button.png */; };
+		BDBE61401FAD4FF50025AE4A /* Rewards Button.png in Resources */ = {isa = PBXBuildFile; fileRef = BDBE613F1FAD4FF50025AE4A /* Rewards Button.png */; };
+		BDBE61421FAD50080025AE4A /* Schedule Button.png in Resources */ = {isa = PBXBuildFile; fileRef = BDBE61411FAD50080025AE4A /* Schedule Button.png */; };
+		BDBE61441FAD500F0025AE4A /* Start Button.png in Resources */ = {isa = PBXBuildFile; fileRef = BDBE61431FAD500F0025AE4A /* Start Button.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		9F10E3A51F893E0100B59768 /* T02UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = T02UITests.swift; sourceTree = "<group>"; };
 		9F10E3A71F893E0100B59768 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F5BCFBD1FA8D4B2004404BA /* ScheduleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleTableViewController.swift; sourceTree = "<group>"; };
+		BDBE613D1FAD4FBA0025AE4A /* Leaderboard Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Leaderboard Button.png"; sourceTree = SOURCE_ROOT; };
+		BDBE613F1FAD4FF50025AE4A /* Rewards Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rewards Button.png"; sourceTree = SOURCE_ROOT; };
+		BDBE61411FAD50080025AE4A /* Schedule Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Schedule Button.png"; sourceTree = SOURCE_ROOT; };
+		BDBE61431FAD500F0025AE4A /* Start Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Start Button.png"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +110,10 @@
 				9F10E3851F893E0100B59768 /* AppDelegate.swift */,
 				9F10E3871F893E0100B59768 /* ViewController.swift */,
 				9F10E3891F893E0100B59768 /* Main.storyboard */,
+				BDBE61431FAD500F0025AE4A /* Start Button.png */,
+				BDBE61411FAD50080025AE4A /* Schedule Button.png */,
+				BDBE613F1FAD4FF50025AE4A /* Rewards Button.png */,
+				BDBE613D1FAD4FBA0025AE4A /* Leaderboard Button.png */,
 				9F5BCFBD1FA8D4B2004404BA /* ScheduleTableViewController.swift */,
 				9F10E38C1F893E0100B59768 /* Assets.xcassets */,
 				9F10E38E1F893E0100B59768 /* LaunchScreen.storyboard */,
@@ -235,9 +247,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDBE61401FAD4FF50025AE4A /* Rewards Button.png in Resources */,
 				9F10E3901F893E0100B59768 /* LaunchScreen.storyboard in Resources */,
 				9F10E38D1F893E0100B59768 /* Assets.xcassets in Resources */,
+				BDBE613E1FAD4FBB0025AE4A /* Leaderboard Button.png in Resources */,
+				BDBE61441FAD500F0025AE4A /* Start Button.png in Resources */,
 				9F10E38B1F893E0100B59768 /* Main.storyboard in Resources */,
+				BDBE61421FAD50080025AE4A /* Schedule Button.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

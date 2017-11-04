@@ -17,40 +17,40 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Abi-aY-iDC">
-                                <rect key="frame" x="164" y="498" width="46" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Abi-aY-iDC">
+                                <rect key="frame" x="52" y="499" width="271" height="148"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Start"/>
+                                <state key="normal" title="Start" image="Start Button.png"/>
                                 <connections>
                                     <segue destination="hjW-qe-RIS" kind="show" id="OQb-Lf-siE"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z4m-8m-H71">
-                                <rect key="frame" x="272" y="177" width="87" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z4m-8m-H71">
+                                <rect key="frame" x="53" y="75" width="270" height="141"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Leaderboard"/>
+                                <state key="normal" title="Leaderboard" image="Leaderboard Button.png"/>
                                 <connections>
                                     <segue destination="mA6-24-2ow" kind="show" id="ne8-Yp-xQJ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a9R-2z-vte">
-                                <rect key="frame" x="300" y="257" width="59" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a9R-2z-vte">
+                                <rect key="frame" x="53" y="214" width="270" height="144"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Rewards"/>
+                                <state key="normal" title="Rewards" image="Rewards Button.png"/>
                                 <connections>
                                     <segue destination="1vy-Dl-k6i" kind="show" id="kPY-LA-kaP"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fSw-lT-iod">
-                                <rect key="frame" x="295" y="331" width="64" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fSw-lT-iod">
+                                <rect key="frame" x="53" y="357" width="270" height="144"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Schedule"/>
+                                <state key="normal" title="Schedule" image="Schedule Button.png"/>
                                 <connections>
                                     <segue destination="fKQ-1W-zLY" kind="show" id="COT-Uu-Fnc"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.78431372549019607" green="0.89184720763305325" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="atz-cQ-Lgx"/>
@@ -59,10 +59,10 @@
             </objects>
             <point key="canvasLocation" x="240.80000000000001" y="118.29085457271366"/>
         </scene>
-        <!--View Controller-->
+        <!--Rewards-->
         <scene sceneID="nfh-cd-dKc">
             <objects>
-                <viewController id="1vy-Dl-k6i" sceneMemberID="viewController">
+                <viewController title="Rewards" id="1vy-Dl-k6i" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bRs-Ol-jcc">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -83,10 +83,10 @@
             </objects>
             <point key="canvasLocation" x="1888.8" y="151.57421289355324"/>
         </scene>
-        <!--View Controller-->
+        <!--Leaderboard-->
         <scene sceneID="oNm-xC-ECG">
             <objects>
-                <viewController id="mA6-24-2ow" sceneMemberID="viewController">
+                <viewController title="Leaderboard" id="mA6-24-2ow" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xGQ-kH-BeF">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -152,7 +152,7 @@
         <!--Schedule Table View Controller-->
         <scene sceneID="Mf3-tO-SaP">
             <objects>
-                <tableViewController id="fKQ-1W-zLY" customClass="ScheduleTableViewController" customModule="test" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="fKQ-1W-zLY" customClass="ScheduleTableViewController" customModule="T02" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="dhJ-UH-2wD">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -220,4 +220,10 @@
             <point key="canvasLocation" x="1058" y="654"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Leaderboard Button.png" width="1269" height="720"/>
+        <image name="Rewards Button.png" width="1269" height="720"/>
+        <image name="Schedule Button.png" width="1269" height="720"/>
+        <image name="Start Button.png" width="1269" height="720"/>
+    </resources>
 </document>
