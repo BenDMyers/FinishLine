@@ -21,6 +21,7 @@
 		BDBE61441FAD500F0025AE4A /* Start Button.png in Resources */ = {isa = PBXBuildFile; fileRef = BDBE61431FAD500F0025AE4A /* Start Button.png */; };
 		BDBE61461FAD568E0025AE4A /* LeaderboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBE61451FAD568E0025AE4A /* LeaderboardViewController.swift */; };
 		BDBE61481FAD5A0F0025AE4A /* RewardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBE61471FAD5A0F0025AE4A /* RewardsViewController.swift */; };
+		BDBE614A1FAD616F0025AE4A /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBE61491FAD616F0025AE4A /* TimerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		BDBE61431FAD500F0025AE4A /* Start Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Start Button.png"; sourceTree = SOURCE_ROOT; };
 		BDBE61451FAD568E0025AE4A /* LeaderboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardViewController.swift; sourceTree = "<group>"; };
 		BDBE61471FAD5A0F0025AE4A /* RewardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsViewController.swift; sourceTree = "<group>"; };
+		BDBE61491FAD616F0025AE4A /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 				BDBE613F1FAD4FF50025AE4A /* Rewards Button.png */,
 				BDBE613D1FAD4FBA0025AE4A /* Leaderboard Button.png */,
 				9F5BCFBD1FA8D4B2004404BA /* ScheduleTableViewController.swift */,
+				BDBE61491FAD616F0025AE4A /* TimerViewController.swift */,
 				9F10E38C1F893E0100B59768 /* Assets.xcassets */,
 				9F10E38E1F893E0100B59768 /* LaunchScreen.storyboard */,
 				9F10E3911F893E0100B59768 /* Info.plist */,
@@ -288,6 +291,7 @@
 				9F5BCFBE1FA8D4B2004404BA /* ScheduleTableViewController.swift in Sources */,
 				9F10E3881F893E0100B59768 /* ViewController.swift in Sources */,
 				BDBE61461FAD568E0025AE4A /* LeaderboardViewController.swift in Sources */,
+				BDBE614A1FAD616F0025AE4A /* TimerViewController.swift in Sources */,
 				9F10E3861F893E0100B59768 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
