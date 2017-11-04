@@ -59,10 +59,10 @@
             </objects>
             <point key="canvasLocation" x="240.80000000000001" y="118.29085457271366"/>
         </scene>
-        <!--Rewards-->
+        <!--REWARDS-->
         <scene sceneID="nfh-cd-dKc">
             <objects>
-                <viewController title="Rewards" id="1vy-Dl-k6i" customClass="RewardsViewController" customModule="T02" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="REWARDS" id="1vy-Dl-k6i" customClass="RewardsViewController" customModule="T02" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bRs-Ol-jcc">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -74,10 +74,10 @@
             </objects>
             <point key="canvasLocation" x="1888.8" y="151.57421289355324"/>
         </scene>
-        <!--Leaderboard-->
+        <!--LEADERBOARD-->
         <scene sceneID="oNm-xC-ECG">
             <objects>
-                <viewController title="Leaderboard" id="mA6-24-2ow" customClass="LeaderboardViewController" customModule="T02" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="LEADERBOARD" id="mA6-24-2ow" customClass="LeaderboardViewController" customModule="T02" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xGQ-kH-BeF">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -89,22 +89,13 @@
             </objects>
             <point key="canvasLocation" x="1167" y="-573"/>
         </scene>
-        <!--Timer-->
+        <!--TIMER-->
         <scene sceneID="hHP-UB-0Xg">
             <objects>
-                <viewController title="Timer" id="hjW-qe-RIS" customClass="TimerViewController" customModule="T02" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="TIMER" id="hjW-qe-RIS" customClass="TimerViewController" customModule="T02" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="IZL-Cq-9dG">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Start" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="igW-y2-6Z5">
-                                <rect key="frame" x="166" y="114" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="MPE-rJ-R7P"/>
                     </view>
@@ -131,10 +122,10 @@
             </objects>
             <point key="canvasLocation" x="-546" y="117"/>
         </scene>
-        <!--Schedule-->
+        <!--SCHEDULE-->
         <scene sceneID="Mf3-tO-SaP">
             <objects>
-                <tableViewController title="Schedule" id="fKQ-1W-zLY" customClass="ScheduleTableViewController" customModule="T02" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController title="SCHEDULE" id="fKQ-1W-zLY" customClass="ScheduleTableViewController" customModule="T02" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="dhJ-UH-2wD">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
