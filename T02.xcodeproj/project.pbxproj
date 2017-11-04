@@ -19,6 +19,8 @@
 		BDBE61401FAD4FF50025AE4A /* Rewards Button.png in Resources */ = {isa = PBXBuildFile; fileRef = BDBE613F1FAD4FF50025AE4A /* Rewards Button.png */; };
 		BDBE61421FAD50080025AE4A /* Schedule Button.png in Resources */ = {isa = PBXBuildFile; fileRef = BDBE61411FAD50080025AE4A /* Schedule Button.png */; };
 		BDBE61441FAD500F0025AE4A /* Start Button.png in Resources */ = {isa = PBXBuildFile; fileRef = BDBE61431FAD500F0025AE4A /* Start Button.png */; };
+		BDBE61461FAD568E0025AE4A /* LeaderboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBE61451FAD568E0025AE4A /* LeaderboardViewController.swift */; };
+		BDBE61481FAD5A0F0025AE4A /* RewardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDBE61471FAD5A0F0025AE4A /* RewardsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		BDBE613F1FAD4FF50025AE4A /* Rewards Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Rewards Button.png"; sourceTree = SOURCE_ROOT; };
 		BDBE61411FAD50080025AE4A /* Schedule Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Schedule Button.png"; sourceTree = SOURCE_ROOT; };
 		BDBE61431FAD500F0025AE4A /* Start Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Start Button.png"; sourceTree = SOURCE_ROOT; };
+		BDBE61451FAD568E0025AE4A /* LeaderboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardViewController.swift; sourceTree = "<group>"; };
+		BDBE61471FAD5A0F0025AE4A /* RewardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +114,8 @@
 				9F10E3851F893E0100B59768 /* AppDelegate.swift */,
 				9F10E3871F893E0100B59768 /* ViewController.swift */,
 				9F10E3891F893E0100B59768 /* Main.storyboard */,
+				BDBE61471FAD5A0F0025AE4A /* RewardsViewController.swift */,
+				BDBE61451FAD568E0025AE4A /* LeaderboardViewController.swift */,
 				BDBE61431FAD500F0025AE4A /* Start Button.png */,
 				BDBE61411FAD50080025AE4A /* Schedule Button.png */,
 				BDBE613F1FAD4FF50025AE4A /* Rewards Button.png */,
@@ -278,8 +284,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDBE61481FAD5A0F0025AE4A /* RewardsViewController.swift in Sources */,
 				9F5BCFBE1FA8D4B2004404BA /* ScheduleTableViewController.swift in Sources */,
 				9F10E3881F893E0100B59768 /* ViewController.swift in Sources */,
+				BDBE61461FAD568E0025AE4A /* LeaderboardViewController.swift in Sources */,
 				9F10E3861F893E0100B59768 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

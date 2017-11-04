@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController {
     
     let red = UIColor(red: 0.8, green: 0.0, blue: 0.0, alpha: 1.0)
-    let yellow = UIColor(red: 1.0, green: 1.0, blue: 0.0, alpha: 1.0)
+    let yellow = UIColor(red: 1.0, green: 0.85, blue: 0.0, alpha: 1.0)
     let blue = UIColor(red: 0.0, green: 0.0, blue: 1.0, alpha: 1.0)
     let green = UIColor(red: 0.42, green: 0.66, blue: 0.31, alpha: 1.0)
  
@@ -21,6 +21,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        self.navigationController?.navigationBar.isHidden = true
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        self.navigationController?.navigationBar.isHidden = true
     }
 
     override func didReceiveMemoryWarning() {

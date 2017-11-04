@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Abi-aY-iDC">
-                                <rect key="frame" x="52" y="499" width="271" height="148"/>
+                                <rect key="frame" x="52" y="471" width="271" height="148"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Start" image="Start Button.png"/>
                                 <connections>
@@ -26,7 +26,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z4m-8m-H71">
-                                <rect key="frame" x="53" y="75" width="270" height="141"/>
+                                <rect key="frame" x="53" y="47" width="270" height="141"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Leaderboard" image="Leaderboard Button.png"/>
                                 <connections>
@@ -34,7 +34,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a9R-2z-vte">
-                                <rect key="frame" x="53" y="214" width="270" height="144"/>
+                                <rect key="frame" x="53" y="186" width="270" height="144"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Rewards" image="Rewards Button.png"/>
                                 <connections>
@@ -42,7 +42,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fSw-lT-iod">
-                                <rect key="frame" x="53" y="357" width="270" height="144"/>
+                                <rect key="frame" x="53" y="329" width="270" height="144"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Schedule" image="Schedule Button.png"/>
                                 <connections>
@@ -62,19 +62,10 @@
         <!--Rewards-->
         <scene sceneID="nfh-cd-dKc">
             <objects>
-                <viewController title="Rewards" id="1vy-Dl-k6i" sceneMemberID="viewController">
+                <viewController title="Rewards" id="1vy-Dl-k6i" customClass="RewardsViewController" customModule="T02" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bRs-Ol-jcc">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Reward" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SY1-49-KqS">
-                                <rect key="frame" x="166" y="111" width="58" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="eJy-Tw-WZu"/>
                     </view>
@@ -86,19 +77,10 @@
         <!--Leaderboard-->
         <scene sceneID="oNm-xC-ECG">
             <objects>
-                <viewController title="Leaderboard" id="mA6-24-2ow" sceneMemberID="viewController">
+                <viewController title="Leaderboard" id="mA6-24-2ow" customClass="LeaderboardViewController" customModule="T02" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xGQ-kH-BeF">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Leaderboard" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zyu-IE-92u">
-                                <rect key="frame" x="138" y="90" width="98" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="Ky9-LH-4jm"/>
                     </view>
@@ -149,10 +131,10 @@
             </objects>
             <point key="canvasLocation" x="-546" y="117"/>
         </scene>
-        <!--Schedule Table View Controller-->
+        <!--Schedule-->
         <scene sceneID="Mf3-tO-SaP">
             <objects>
-                <tableViewController id="fKQ-1W-zLY" customClass="ScheduleTableViewController" customModule="T02" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController title="Schedule" id="fKQ-1W-zLY" customClass="ScheduleTableViewController" customModule="T02" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="dhJ-UH-2wD">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

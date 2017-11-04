@@ -10,6 +10,11 @@ import UIKit
 
 class ScheduleTableViewController: UITableViewController {
     
+    let red = UIColor(red: 0.8, green: 0.0, blue: 0.0, alpha: 1.0)
+    let yellow = UIColor(red: 1.0, green: 0.85, blue: 0.0, alpha: 1.0)
+    let blue = UIColor(red: 0.0, green: 0.0, blue: 1.0, alpha: 1.0)
+    let green = UIColor(red: 0.42, green: 0.66, blue: 0.31, alpha: 1.0)
+    
     let pick = UIDatePicker()
     let dateFormatter = DateFormatter()
     var days : [(day: String, timeIn: String, timeOut: String, dateIn: Bool, dateOut: Bool, showTime: Bool)] = []
@@ -18,6 +23,14 @@ class ScheduleTableViewController: UITableViewController {
     var pickerOut : [UIDatePicker] = []
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        // Toolbar formatting
+        self.navigationController?.navigationBar.isHidden = false
+        self.navigationController?.navigationBar.barTintColor = yellow
+        self.navigationController?.navigationBar.tintColor = UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 0.7)
+        self.navigationController?.navigationBar.titleTextAttributes = [NSAttributedStringKey.foregroundColor:UIColor.white]
+        
+        // Actual scheduler logic
         
         dateFormatter.timeStyle = .short
         
