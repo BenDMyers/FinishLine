@@ -22,7 +22,7 @@ class RewardsViewController: UIViewController {
         self.navigationController?.navigationBar.isHidden = false
         self.navigationController?.navigationBar.barTintColor = blue
         self.navigationController?.navigationBar.tintColor = UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 0.7)
-        self.navigationController?.navigationBar.titleTextAttributes = [NSAttributedStringKey.font: UIFont(name: "Just tell me what", size: 20)!, NSAttributedStringKey.foregroundColor:UIColor.white]
+        self.navigationController?.navigationBar.titleTextAttributes = [NSAttributedStringKey.font: UIFont(name: "Just tell me what", size: 20), NSAttributedStringKey.foregroundColor:UIColor.white]
     }
 
     override func didReceiveMemoryWarning() {

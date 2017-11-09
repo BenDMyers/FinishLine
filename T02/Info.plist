@@ -41,5 +41,10 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Just tell me what regular (Version 2).otf</string>
+		<string>Just tell me what regular-Italic (Version 2).otf</string>
+	</array>
 </dict>
 </plist>
